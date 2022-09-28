@@ -18,7 +18,7 @@ form{
     justify-content: center;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 35px;
 }
 
 label{
@@ -27,13 +27,76 @@ label{
 }
 
 button{
-    border-radius: 8px;
-    font-weight: 900;
+    border-radius: 4px;
+    font-weight: 1000;
     font-size: 1rem;
-    padding: 5px;
-    background-color: #779bb3;
+    /* padding: 5px; */
+    background-color: #465c6b;
     color: aliceblue;
     border: none;
     letter-spacing: 0.7px;
+    padding: 10px 20px 10px 20px;
    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #779bb3;
+    transition: 0.7s;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 30em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px 5px rgba(0,0,0,.15);
+    margin: 100px auto;
+    
+}
+
+table thead td{
+    background-color: rgb(38, 36, 36);
+    color: whitesmoke;
+    border-bottom: .5px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 8px;
+    
+}
+
+table tbody td {
+    padding: 8px;
+    
+}
+
+table tbody tr td:nth-child(4){
+    text-align: center;
+}
+
+table tbody tr td:nth-child(3){
+    text-align: center;
+}
+
+table thead tr td:nth-child(3){
+    text-align: center;
+}
+
+
+
+
+table td{
+    font-size: 18px;
+    color: rgb(38, 36, 36);
+}
+
+.delbtn{
+    background-color: #990026;
+    
+}
+
+.delbtn:hover{
+    background-color: #ec0e46;
+    transition: 0.7s;
 }
